@@ -2,11 +2,12 @@
   "name": "fotoxl2.2",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "dev": "nodemon /app/dash/page.js"
+    "dev": "nodemon ./app/page.js"
   },
   "dependencies": {
     "next": "14.2.13",

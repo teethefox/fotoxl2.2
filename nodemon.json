@@ -1,0 +1,5 @@
+{
+    "watch": ["server/**/*.js", "pages/**/*.js", "components/**/*.js"],
+    "ignore": [".next/**/*"],
+    "ext": "js,jsx"
+  }
